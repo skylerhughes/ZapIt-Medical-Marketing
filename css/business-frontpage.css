@@ -22,7 +22,6 @@ body {
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
-    text-shadow: 0 0 10px #000;
     color: #fff;
     margin-top: 220px;
 }
@@ -40,4 +39,200 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+.videosection {
+    background: #D94E22;
+    padding: 150px 0px 150px 0px;
+}
+
+.industrysection {
+    background: #F6F6F6;
+    padding: 150px 0px 150px 0px;
+}
+
+.all-devices {
+    background: #FFF;
+    padding: 150px 0px 150px 0px;
+}
+
+.one-app {
+    background: #FFF;
+    padding: 10px 0px 150px 0px;
+}
+
+.zapit-headline {
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+.chooseindustry {
+text-align: center;
+    color: #043755;
+    margin-bottom: 100px;
+}
+
+.devices {
+    color: #043755;
+    margin-bottom: 25px;
+}
+
+.devices-info {
+    color: #043755;
+    font-size: 18px;
+    font-weight: 300;
+    width: 75%;
+}
+
+.industry-categories {
+    text-align: center;
+    color: #677B95;
+    font-size: 18px;
+}
+
+.people {
+    text-align: center;
+}
+
+.testimonial {
+    color: #FFF;
+    font-size: 24px;
+    padding: 50px 0px 15px 75px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:670px;
+  margin-left:-5em;
+  background:#FFF;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+.arrow {
+    float: left;
+    background-image: url(../images/chevron.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 44px;
+    height: 20px;
+    /* text-align: center; */
+    /* border-style: solid; */
+    /* border-width: 3em 3em 0 3em; */
+    /* border-color: #D94E22 transparent transparent transparent; */
+    -webkit-transform: rotate(360deg);
+    /* padding: 150px; */
+    background-position: center;
+}
+
+
+.testiomonial-info {
+   color: #FFF;
+    line-height: 20px;
+    padding-right: 30px;
+    font-weight: 400;
+    float: right;
+}
+
+
+.formfooter {
+    width: 50%;
+    margin: auto;
+}
+
+.foot-links a, .foot-links p{
+  display: block;
+   color: rgb(63, 63, 63);
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-family: OpenSansRegular, Arial, sans-serif;
+  font-size: 13px;
+  color: rgb(63, 63, 63);
+  padding-bottom: 5px;
+  text-shadow: rgb(255, 255, 255) 1px 1px 0px;
+  
+}
+.foot-links img{
+	padding-top: 5px;
+}
+#footer{
+  background: rgb(241, 241, 241);
+  border-top: 1px solid rgb(222, 222, 222);
+  margin-top: -2px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ }
+.foot-header{
+  font-family: OpenSansBold, Arial, sans-serif;
+  font-size: 18px;
+  color: rgb(63, 63, 63);
+  padding-bottom: 20px;
+  text-shadow: rgb(255, 255, 255) 1px 1px 0px;
+}
+  
+#footer .container{
+	max-width: 1100px;
+}
+#bottom-footer{
+  margin-bottom: 20px;
+	border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#bottom-footer a{
+	  text-decoration: none;
+  color: #626262;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  font-size: 12px;
+  padding: 0px 15px;
+  border-right: 1px solid #ccc;
+  font-family: 'OpenSansRegular', Arial, sans-serif;
+  font-size: 13px;
+  color: #626262;
+  padding: 0 12px;
+  text-shadow: 1px 1px 0 rgba(255,255,255,1);
+}
+#bottom-footer .phone img{
+	margin-right: 7px;
+}
+#bottom-footer .phone .red{
+	font-size: 22px;
+  margin-top: -7px;
+  font-family: 'OpenSansRegular', Arial, sans-serif;
+  font-size: 18px!important;
+  color: #d10029!important;
+  position: relative;
+  top: -5px;
+  text-shadow: 1px 1px 0 rgba(255,255,255,1)!important;
+}
+#bottom-footer .phone .red small{
+	font-family: 'OpenSansRegular', Arial, sans-serif;
+  font-size: 12px!important;
+  display: block;
+  color: #626262!important;
+  text-shadow: 1px 1px 0 rgba(255,255,255,1)!important;
+  margin-top: -5px;
+}
+#final-footer{
+	font-size: 11px;
+  	color: #666;
+}
+#final-footer i{
+	font-size: auto;
 }
