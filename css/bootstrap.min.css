@@ -3164,6 +3164,9 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     font-size: 18px;
     line-height: 20px;
     margin-top: 10px;
+    background-image: url(../images/zapit-logo.png); 
+    background-repeat: no-repeat;
+    width: 150px;
 }
 .navbar-brand:focus, .navbar-brand:hover {
     text-decoration: none;
