@@ -19,11 +19,41 @@ body {
     -o-background-size: cover;
 }
 
+
+.free-trail a {
+    color: #FFF !important;
+      background: #D94E22;
+    padding: 15px 30px 15px 30px !important;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.free-trail a:hover {
+    color: #FFF !important;
+      background: #DD6D49 !important;
+}
+
+.form-free-trial {
+    margin-left: 50px;
+}
+
+.arrow-wrap:hover {
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
     color: #fff;
     margin-top: 220px;
+        padding: 0px 30px 0px 16px;
 }
 
 .subline {
@@ -31,6 +61,14 @@ body {
     font-size: 24px;
     font-weight:300;
     margin-top: 20px;
+        padding: 0px 30px 0px 16px;
+}
+
+.start-trail {
+        color: #fff;
+    margin-top: 185px;
+    padding: 0px 30px 20px 16px;
+    font-weight: 400;
 }
 
 .img-center {
@@ -58,7 +96,24 @@ footer {
 
 .one-app {
     background: #FFF;
-    padding: 10px 0px 150px 0px;
+    padding: 10px 0px 100px 0px;
+}
+
+.sign-up-footer {
+    background: #F6F6F6;
+    padding: 100px 0px 150px 0px;
+}
+
+.sign-up-footer .line-center {
+    background: #F6F6F6;
+    color: #043755;
+}
+
+
+.sign-up-header {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #043755;
 }
 
 .zapit-headline {
@@ -150,35 +205,56 @@ text-align: center;
     margin: auto;
 }
 
+.form-control-footer {
+        display: block;
+    width: 100%;
+    height: 34px;
+    padding: 22px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #979797;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-group-two {
+    margin-bottom: 15px;
+    background: #FFF;
+    color: #38404A;
+}
+
 .foot-links a, .foot-links p{
   display: block;
-   color: rgb(63, 63, 63);
+   color: #C6CDD1;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   text-decoration: none;
-  font-family: OpenSansRegular, Arial, sans-serif;
   font-size: 13px;
-  color: rgb(63, 63, 63);
+  color: #C6CDD1;
   padding-bottom: 5px;
-  text-shadow: rgb(255, 255, 255) 1px 1px 0px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
   
 }
 .foot-links img{
 	padding-top: 5px;
 }
 #footer{
-  background: rgb(241, 241, 241);
-  border-top: 1px solid rgb(222, 222, 222);
+  background: #043755;
   margin-top: -2px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
  }
 .foot-header{
   font-family: OpenSansBold, Arial, sans-serif;
   font-size: 18px;
-  color: rgb(63, 63, 63);
+  color: #FFF;
   padding-bottom: 20px;
-  text-shadow: rgb(255, 255, 255) 1px 1px 0px;
 }
   
 #footer .container{
@@ -187,13 +263,12 @@ text-align: center;
 #bottom-footer{
   margin-bottom: 20px;
 	border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 #bottom-footer a{
 	  text-decoration: none;
-  color: #626262;
+  color: #C6CDD1;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -202,37 +277,31 @@ text-align: center;
   font-size: 12px;
   padding: 0px 15px;
   border-right: 1px solid #ccc;
-  font-family: 'OpenSansRegular', Arial, sans-serif;
   font-size: 13px;
-  color: #626262;
+  color: #C6CDD1;
   padding: 0 12px;
-  text-shadow: 1px 1px 0 rgba(255,255,255,1);
 }
-#bottom-footer .phone img{
-	margin-right: 7px;
+
+.foot-links a:hover {
+    color: #D94E22;
 }
-#bottom-footer .phone .red{
-	font-size: 22px;
-  margin-top: -7px;
-  font-family: 'OpenSansRegular', Arial, sans-serif;
-  font-size: 18px!important;
-  color: #d10029!important;
-  position: relative;
-  top: -5px;
-  text-shadow: 1px 1px 0 rgba(255,255,255,1)!important;
-}
-#bottom-footer .phone .red small{
-	font-family: 'OpenSansRegular', Arial, sans-serif;
-  font-size: 12px!important;
-  display: block;
-  color: #626262!important;
-  text-shadow: 1px 1px 0 rgba(255,255,255,1)!important;
-  margin-top: -5px;
-}
+
+
 #final-footer{
 	font-size: 11px;
   	color: #666;
 }
 #final-footer i{
 	font-size: auto;
+}
+
+
+
+a.choose:hover {
+    opacity: .7;
+     -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
