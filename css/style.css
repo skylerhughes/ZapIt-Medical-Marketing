@@ -55,6 +55,12 @@ body {
         padding: 0px 30px 0px 16px;
 }
 
+.tagline-eqar {
+    color: #fff;
+    margin-top: 180px;
+        padding: 0px 30px 0px 16px;
+}
+
 .subline {
     color: #869DB9;
     font-size: 24px;
@@ -87,6 +93,11 @@ footer {
 .industrysection {
     background: #F6F6F6;
     padding: 150px 0px 150px 0px;
+}
+
+.industrysection-whyeqar {
+    padding: 150px 0px 150px 0px;
+
 }
 
 .industrysection-white {
@@ -143,6 +154,7 @@ footer {
     text-align: center;
     padding-bottom: 50px;
     color: #043755;
+    padding-left: 37px;
 }
 
 .zapit-headline {
@@ -167,6 +179,15 @@ text-align: center;
     font-size: 18px;
     font-weight: 300;
     width: 75%;
+    padding: 11px 0px 25px 13px;
+}
+
+.devices-all {
+    color: #043755;
+    font-size: 18px;
+    font-weight: 300;
+    width: 75%;
+    padding: 5px 0px 0px 0px;
 }
 
 .list-info {
@@ -410,3 +431,7 @@ a.choose:hover {
 	border: 1px solid #979797;
     color: #000;
 	}
+
+ul {
+    list-style-image: url(../images/checklist.png);
+}
