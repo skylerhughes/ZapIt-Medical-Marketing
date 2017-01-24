@@ -33,7 +33,8 @@ body {
 }
 
 .form-free-trial {
-    margin-left: 50px;
+    margin: auto;
+    width: 78%;
 }
 
 .arrow-wrap:hover {
@@ -73,7 +74,7 @@ body {
 .start-trail {
         color: #fff;
     margin-top: 185px;
-    padding: 0px 30px 20px 16px;
+    padding: 0px 30px 20px 0px;
     font-weight: 400;
 }
 
@@ -154,7 +155,6 @@ footer {
     text-align: center;
     padding-bottom: 50px;
     color: #043755;
-    padding-left: 37px;
 }
 
 .zapit-headline {
@@ -172,6 +172,12 @@ text-align: center;
 .devices {
     color: #043755;
     margin-bottom: 25px;
+}
+
+.register-header {
+    color: #043755;
+    margin-bottom: 25px;
+    margin-top: 100px;
 }
 
 .devices-info {
@@ -434,4 +440,8 @@ a.choose:hover {
 
 ul {
     list-style-image: url(../images/checklist.png);
+}
+
+.faq-section {
+    margin-top: 50px;
 }
