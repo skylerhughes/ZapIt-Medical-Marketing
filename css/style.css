@@ -386,7 +386,6 @@ a.choose:hover {
 }
 
 .contact-header {
-    margin-left: 15px;
     color: #FFF;
     font-size: 18px;
     font-weight: 100;
@@ -395,7 +394,7 @@ a.choose:hover {
 
 
 .social-contact a {
-    margin-left: 15px;
+
     color: #FFF;
     font-size: 18px;
     font-weight: 100;
@@ -413,7 +412,6 @@ a.choose:hover {
 
 
 .social-contact-invert a {
-    margin-left: 15px;
     color: #91A7C1;
     font-size: 18px;
     font-weight: 100;
